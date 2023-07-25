@@ -63,7 +63,7 @@ class Table2ApiGeneratorCommand extends Command
 
     private function getStub($stubName)
     {
-        return file_get_contents(base_path('vendor/asif/table2api/src/stubs/' . $stubName . '.stub'));
+        return file_get_contents(base_path('vendor/asif/table-to-api/src/stubs/' . $stubName . '.stub'));
     }
 
     /**
