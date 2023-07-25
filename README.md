@@ -6,11 +6,11 @@ table2api is a laravel package that creates rest api for a certain table. It gen
 
 # Installing table-to-api
 
-The recommended way to install table2api is through
+The recommended way to install table-to-api is through
 [Composer](https://getcomposer.org/).
 
 ```bash
-composer require asifzcpe/table2api
+composer require asifzcpe/table-to-api
 ```
 
 # Setting up the package in laravel project
