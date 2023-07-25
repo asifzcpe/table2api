@@ -1,0 +1,32 @@
+{
+    "name": "asif/table-to-api",
+    "description": "a laravel package that creates rest api for a certain table. It generates scaffolding for rest api",
+    "keywords": [
+        "api generator",
+        "table to api generator",
+        "rest api",
+        "web service",
+        "curl"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Asif Rahman",
+            "email": "rahmanasif05004@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Asif\\Table2api\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asif\\Table2api\\Providers\\Table2ApiServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
